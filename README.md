@@ -44,7 +44,7 @@ sed -i 's@^\(deb.*stable main\)$@#\1\ndeb https://mirrors.tuna.tsinghua.edu.cn/t
 
 # 移动脚本到shizuku私有目录（以默认内部存储目录为例）
 ```bash
-mv  ~/storage/shared/shizuku_daemon ~
+mv  ~/storage/shared/shizuku_daemon.sh ~
 ```
 >**如果你不确定你脚本保存在哪里可以先用[MT管理器](http://mt2.cn/)定位文件所在位置，然后直接用『 MT管理器 』移动到Termux私有目录即可**
 
