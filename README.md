@@ -81,7 +81,7 @@ chmod +x shizuku_daemon.sh
 ```bash
 ./shizuku_daemon.sh
 ```
-方案二
+## 方案二
 
 ### 直接用bash执行
 ```bash
