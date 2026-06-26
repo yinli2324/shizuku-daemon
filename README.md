@@ -70,18 +70,25 @@ adb tcpip 端口号
 
 # 3. 脚本运行准备
 
+## 方案一
+
 ### 赋予脚本执行权限
 ```bash
-chmod +x shizuku_daemon
+chmod +x shizuku_daemon.sh
 ```
 
 ### 执行脚本
 ```bash
-./shizuku_daemon
+./shizuku_daemon.sh
+```
+方案二
+
+### 直接用bash执行
+```bash
+bash shizuku_daemon.sh
 ```
 
-
-> 💡 **提示**：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入`adb connect IP地址:端口号`，然后直接运行 `./shizuku_daemon`
+> 💡 **提示**：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入`adb connect IP地址:端口号`，然后直接运行 `./shizuku_daemon.sh`
  即可。
 
 
