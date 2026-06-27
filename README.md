@@ -90,7 +90,7 @@ bash shizuku_daemon.sh
 ```
 
 > 💡 **提示**：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入`adb connect IP地址:端口号`，然后直接运行 `./shizuku_daemon.sh`
- 即可。
+ 或者`bash shizuku_daemon.sh`即可。
 
 
 ---
