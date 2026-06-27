@@ -147,3 +147,13 @@ bash shizuku_daemon.sh
 <h2>作者的一些心里话</h2>
 <p>谢谢你能看完我整个README.md发布说明，说实话，这个项目是我实际花了半年时间制作，去年开始就有这个想法，因为我也是一个安卓玩机爱好者，但shizuku时不时抽疯掉线真的很烦，于是我就在想有没有什么办法可以解决这个问题，所以我开始研究这个项目，但本人对代码编程不是很熟，所以这个脚本有问题有bug是正常的，嗯，就说这么多吧，再次感谢你能看到这里--音YINLI黎</p>
 </details>
+
+---
+
+<details>
+<summary><b>支持作者</b></summary>
+<div align="center"><strong><mark>谢谢老板的支持</mark></strong></div>
+  <img src="./0000.png" alt="Project Logo" width="520"/>
+  <div align="center"><strong><mark>未成年人禁止打赏</mark></strong></div>
+
+
