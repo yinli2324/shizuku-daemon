@@ -111,18 +111,19 @@ bash shizuku_daemon.sh
 <p align="center">
   <img src="./YINLI.png" alt="Author Avatar" width="100"/>
   
-  <h>脚本开发者：音YINLI黎</h>
-  <p>抖音号：YINLI2324959492</p>
+  <div align="center"><strong>音YINLI黎</strong></div>
+  <div align="center"><strong>一个安卓玩机与数码科技爱好者</strong></div>
+  <div align="center"><strong>抖音号：YINLI2324959492</strong></div>
   
   
-> **制作不易，搬运必究。**
+> ***制作不易，搬运必究。***
 
-本脚本由 **音YINLI黎** 制作开发。如果你觉得这个项目对你有帮助，欢迎关注我的抖音号，获取更多玩机教程与资源：
+本脚本由 ***音YINLI黎*** 制作开发。如果你觉得这个项目对你有帮助，欢迎关注我的抖音号，获取更多玩机教程与资源：
 
-*   👤 **抖音号**：[音YINLI黎 UID：YINLI2324959492](https://v.douyin.com/ONvBHrHbCGo/)
-*   🐧**QQ号**：[༺❀ൢ音༒黎ൢ❀༻ QQ：2324959492](https://qm.qq.com/q/raoEUmkrbG)
-*   🌐 **个人网站**：[音黎资源网：https://yinlitoolbox.me/](https://yinlitoolbox.me/)
-*   💬 **安卓玩机交流群**：[抖音群：918840653195](https://v.douyin.com/group/918840653195)
+*   👤 ***抖音号***：[音YINLI黎 UID：YINLI2324959492](https://v.douyin.com/ONvBHrHbCGo/)
+*   🐧***QQ号***：[༺❀ൢ音༒黎ൢ❀༻ QQ：2324959492](https://qm.qq.com/q/raoEUmkrbG)
+*   🌐 ***个人网站***：[音黎资源网：https://yinlitoolbox.me/](https://yinlitoolbox.me/)
+*   💬 ***安卓玩机交流群***：[抖音群：918840653195](https://v.douyin.com/group/918840653195)
 
 > **⚠️ 版权警告**：
 本仓库的所有代码和资源均受版权保护。**严禁**任何个人或组织未经授权将此脚本用于商业售卖、打包进付费工具箱或营销牟利。**严禁**私自逆向破解、篡改作者署名进行倒卖的行为，我们将保留追究其法律责任的权利。
