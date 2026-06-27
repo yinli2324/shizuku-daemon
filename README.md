@@ -56,6 +56,7 @@ mv  ~/storage/shared/shizuku_daemon.sh ~
 ```bash
 adb pair IP地址:端口号
 ```
+### 然后下方会让你输入配对码
 
 # 2. 配对成功后，连接 ADB 服务
 ```bash
