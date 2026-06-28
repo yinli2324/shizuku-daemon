@@ -120,7 +120,7 @@ bash shizuku_daemon.sh
 ## 快捷偷懒
 > **你还真是个小懒虫，居然真跑到这来了，不过，既然你都来了，那我就给你提供偷懒的办法**
 
-> **首先，你先下载我提供的【脚本】[点击下载](https://github.com/yinli2324/shizuku-daemon/releases/download/v1.0.1/)termux_setup.sh和shizuku_daemon.sh都要下载**
+> **首先，你先下载我提供的【脚本】[点击下载](https://github.com/yinli2324/shizuku-daemon/releases/tag/v1.0.1)termux_setup.sh和shizuku_daemon.sh都要下载**
 
 > **然后确定文件所在位置并记住一会要用，不确定可以用『 [MT管理器](http://mt2.cn/) 』 定位文件所在位置**
 
