@@ -97,6 +97,25 @@ bash shizuku_daemon.sh
 > 💡 **提示**：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入`adb connect IP地址:端口号`，然后直接运行 `./shizuku_daemon.sh`
  或者`bash shizuku_daemon.sh`即可。
 
+## 非必要但建议
+> ***不想每次都搞这么麻烦？是不是想偷懒，没问题，帮你解决***
+
+### 在`Termux`里输入这个指令添加配置文件
+
+```bash
+nano ~/.bashrc
+```
+
+### 然后复制粘贴这个指令
+```bash
+adb connect IP地址:端口号
+bash shizuku_daemon.sh
+```
+> ***IP地址和端口号请修改为你自己的，如果已经设置了TCP端口，IP地址可以改成`127.0.0.1`***
+
+> ***然后`Ctrl+O`保存，回车确定，`Ctrl+X`退出***
+
+> ***这样每次打开`Termux`的时候就会自动开启脚本啦***
 
 ---
 
