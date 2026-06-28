@@ -21,7 +21,7 @@
 
 ## 🛠️ Termux与Shizuku环境准备
 
->在开始使用前，请确保你的设备已准备好以下环境，并确保安卓版本大于或等于Android11。本板块提供了直接复制粘贴即可使用的指令。
+>在开始使用前，请确保你的设备已准备好以下环境，并确保安卓版本大于或等于Android11。本板块提供了直接复制粘贴即可使用的指令（如果你想偷懒就下滑到快捷偷懒板块）。
 
 ### 1. Termux 初始配置与存储授权
 
@@ -117,11 +117,54 @@ bash shizuku_daemon.sh
 
 > ***这样每次打开`Termux`的时候就会自动开启脚本啦***
 
+## 快捷偷懒
+> **你还真是个小懒虫，居然真跑到这来了，不过，既然你都来了，那我就给你提供偷懒的办法**
+
+> **首先，你先下载我提供的【脚本】[点击下载](https://github.com/yinli2324/shizuku-daemon/releases/download/v1.0.1/)termux_setup.sh和shizuku_daemon.sh都要下载**
+
+> **然后确定文件所在位置并记住一会要用，不确定可以用『 [MT管理器](http://mt2.cn/) 』 定位文件所在位置**
+
+### ***然后打开你的Termux，先给管理所有文件权限***
+```bash
+termux-setup-storage
+```
+### ***然后给脚本可执行权限***
+
+### 方案一
+> **这里以默认的内部存储目录为例，请根据实际情况自行修改路径**
+```bash
+chmod +x /storage/emulated/0/Documents/termux_setup.sh && chmod +x /storage/emulated/0/Documents/shizuku_daemon.sh
+```
+
+### ***然后执行脚本文件***
+> **注：进入ADB配对时请把Termux弄成小窗并保证已开启开发者选项和已进入无线调试配对，初始配对时请点击使用配对码完成配对，然后把IP地址和端口号填进去，下面会让你输入6位数的配对码，你把你看到的配对码输入进去就算配对成功了，然后会让你再次输入IP地址和端口号，这次的IP地址和端口号是你这个界面里默认的那一个，然后会问你是否设置TCP端口，这个的作用是可以让你在无WiFi的情况下仍然可以使用脚本，范围我也给你定好了，完成全部配对以后脚本就到此结束了**
+```bash
+sh /storage/emulated/0/Documents/termux_setup.sh
+```
+### 方案二
+> **使用『 MT管理器 』把 `termux_setup.sh` 和 `shizuku_daemon` 移动到Termux的私有目录里**
+> **然后给脚本可执行权限**
+```bash
+chmod +x termux_setup.sh && chmod +x shizuku_daemon.sh
+```
+> **最后执行脚本，操作方法跟方案一的注意事项一样**
+```bash
+./termux_setup.sh
+```
+> **初始配置搞完以后就可以进行下一步了，运行shizuku进程守护脚本**
+```bash
+./shizuku_daemon.sh
+```
+> **或者***
+```bash
+bash shizuku_daemon.sh
+```
+
 ---
 
 ## 🌟 核心特性
 
->本项目旨在为 Android 玩机爱好者提供一个稳定、高效的 Shizuku 进程守护脚本，主要作用是保证shizuku能保持服务运行状态，当ADB服务进程掉线的时候自动复活省去手动激活的麻烦。
+> ***本项目旨在为 Android 玩机爱好者提供一个稳定、高效的 Shizuku 进程守护脚本，主要作用是保证shizuku能保持服务运行状态，当ADB服务进程掉线的时候自动复活省去手动激活的麻烦。***
 
 ---
 
