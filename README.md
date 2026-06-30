@@ -5,6 +5,7 @@
   <p><mark>保姆级使用教程 · 音YINLI黎制作</mark></p>
     </div>
 
+# GitHub网页版专属快捷跳转，软件版有bug可能跳转不了
 <p align="center">
   <a href="#新手必看">新手必看</a> ·
   <a href="#后续操作">后续操作</a> ·
