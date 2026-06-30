@@ -5,9 +5,18 @@
   <p><mark>保姆级使用教程 · 音YINLI黎制作</mark></p>
     </div>
 
+<p align="center">
+  <a href="#新手必看">新手必看</a> ·
+  <a href="#后续操作">后续操作</a> ·
+  <a href="#脚本自启动">脚本自启动</a> ·
+  <a href="#快捷偷懒">快捷偷懒</a> ·
+  <a href="#项目说明及脚本作用">脚本作用</a> ·
+  <a href="#关于作者">关于作者</a> ·
+  <a href="#免责声明">免责声明</a>
+</p>
+
   ---
   
-
 ## 🔗 Termux与Shizuku官方仓库
 
 > **为了方便大家查找官方仓库和解决环境问题，这里直接提供官方仓库的跳转链接：**
@@ -19,9 +28,10 @@
 
 ---
 
+# 新手必看
 ## 🛠️ Termux与Shizuku环境准备
 
->在开始使用前，请确保你的设备已准备好以下环境，并确保安卓版本大于或等于Android11。本板块提供了直接复制粘贴即可使用的指令（如果你想偷懒就下滑到快捷偷懒板块）。
+>在开始使用前，请确保你的设备已准备好以下环境，并确保安卓版本大于或等于Android11。本板块提供了直接复制粘贴即可使用的指令（如果你想偷懒就点这里跳转到[快捷偷懒](#快捷偷懒)板块）。
 
 ### 1. Termux 初始配置与存储授权
 
@@ -94,10 +104,23 @@ chmod +x shizuku_daemon.sh
 bash shizuku_daemon.sh
 ```
 
-> 💡 **提示**：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入`adb connect IP地址:端口号`，然后直接运行 `./shizuku_daemon.sh`
- 或者`bash shizuku_daemon.sh`即可。
+# 后续操作
+## **提示：以上步骤只需在首次使用时完整执行一次。之后每次使用只需输入**
+```bash
+adb connect IP地址:端口号
+```
 
-## 非必要但建议
+## 然后直接运行 
+```bash
+./shizuku_daemon.sh
+```
+## 或者
+```bash
+bash shizuku_daemon.sh
+```
+
+# 脚本自启动
+> **非必要但建议**
 > ***不想每次都搞这么麻烦？是不是想偷懒，没问题，帮你解决***
 
 ### 在`Termux`里输入这个指令添加配置文件
@@ -117,7 +140,7 @@ bash shizuku_daemon.sh
 
 > ***这样每次打开`Termux`的时候就会自动开启脚本啦***
 
-## 快捷偷懒
+# 快捷偷懒
 > **你还真是个小懒虫，居然真跑到这来了，不过，既然你都来了，那我就给你提供偷懒的办法**
 
 > **首先，你先下载我提供的【脚本】[点击下载](https://github.com/yinli2324/shizuku-daemon/releases/tag/v1.0.1)termux_setup.sh和shizuku_daemon.sh都要下载**
@@ -162,13 +185,13 @@ bash shizuku_daemon.sh
 
 ---
 
-## 🌟 核心特性
+# 项目说明及脚本作用
 
 > ***本项目旨在为 Android 玩机爱好者提供一个稳定、高效的 Shizuku 进程守护脚本，主要作用是保证shizuku能保持服务运行状态，当ADB服务进程掉线的时候自动复活省去手动激活的麻烦。***
 
 ---
 
-## 📢 关于作者
+# 关于作者
 
 <p align="center">
   <img src="./YINLI.png" alt="Author Avatar" width="100"/>
@@ -192,7 +215,7 @@ bash shizuku_daemon.sh
 
 ---
 
-## ⚠️ 免责声明
+# 免责声明
 
 >**请在运行本脚本前仔细阅读以下条款：**
 >1.  **风险自担**：本脚本涉及 `adb shell dumpsys`、`device_config` 等底层系统级干预操作，运行即视为您已了解并接受所有潜在风险。
